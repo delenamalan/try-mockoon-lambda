@@ -2,7 +2,11 @@
   "name": "nodejs-apig",
   "version": "1.0.0",
   "private": true,
+	"type": "module",
   "devDependencies": {
     "aws-sdk": "2.814.0"
+  },
+  "dependencies": {
+    "@mockoon/serverless": "^0.1.0"
   }
 }
